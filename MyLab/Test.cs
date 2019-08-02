@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MyLab
 {
-    class Test
+    public class Test
     {
         [Benchmark]
         public void Case1()
