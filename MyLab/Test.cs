@@ -11,7 +11,6 @@ namespace MyLab
         public string _path = @"D:\Projects\Data\pin-payments.csv";
         public string[] Payments { get; set; }
         public string[] Users { get; set; }
-        public string selectedUser = "de638a1c-4074-4f8a-9a1f-49512726c628";
 
         public Test()
         {
