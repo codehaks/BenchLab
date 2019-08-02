@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BenchmarkDotNet.Running;
+using System;
 
 namespace MyLab
 {
@@ -7,6 +8,8 @@ namespace MyLab
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            BenchmarkRunner.Run<Test>();
         }
     }
 }
